@@ -62,7 +62,7 @@ for (let i = 0; i < 3; i++) {
       innerP.style.textAlign = "center";
       if (i == 8) {
         innerP.style.backgroundColor = "#BA95F4";
-      } else if (i % 2 != 0) {
+      } else if (i % 2 == 0) {
         innerP.style.backgroundColor = "black";
         innerP.style.color = "white";
       }
